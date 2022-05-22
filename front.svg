@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="610" height="970" viewBox="0 0 610 970">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="610" height="970" viewBox="0 0 610 970">
     <!--背景色-->
     <rect x="0" y="0" width="610" height="970" />
     <!--コケッシー-->
@@ -46,7 +46,7 @@
     >JavaScript</text>
     <!--リンク-->
     <image
-        href="./twitterIcon.svg"
+        xlink:href="./twitterIcon.svg"
         x="75"
         y="635"
         width="40"
@@ -60,7 +60,7 @@
         font-family="Arial"
     >@hutinoatari</text>
     <image
-        href="./githubIcon.png"
+        xlink:href="./githubIcon.png"
         x="75"
         y="705"
         width="40"
@@ -74,7 +74,7 @@
         font-family="Arial"
     >hutinoatari</text>
     <image
-        href="./house.svg"
+        xlink:href="./house.svg"
         x="75"
         y="775"
         width="40"
@@ -88,7 +88,7 @@
         font-family="Arial"
     >hutinoatari.dev</text>
     <image
-        href="./mail.svg"
+        xlink:href="./mail.svg"
         x="75"
         y="845"
         width="40"
