@@ -1,31 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="610" height="970" viewBox="0 0 610 970">
-    <!--背景色-->
-    <rect x="0" y="0" width="610" height="970" />
-    <!--コケッシー-->
-    <path d="
-        M 100 0
-        L 510 0
-        L 610 100
-        L 610 510
-        L 540 580
-        L 610 650
-        L 610 970
-        L 0   970
-        L 0   650
-        L 70  580
-        L 0   510
-        L 0   100
-        Z
-    " fill="rgb(205, 153, 106)" />
-    <!--目-->
-    <circle cx="180" cy="180" r="15" />
-    <circle cx="430" cy="180" r="15" />
-    <!--口-->
-    <line x1="260" y1="490" x2="350" y2="490" stroke="black" stroke-width="10" />
-    
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="970" height="610" viewBox="0 0 970 610">
+    <!--背景-->
+    <rect x="0" y="0" width="970" height="610" fill="rgb(205, 153, 106)" />
+
+    <!--作品-->
+    <image
+        xlink:href="./dragonfly.jpg"
+        x="100"
+        y="72"
+        width="400"
+        height="300"
+    />
+    <image
+        xlink:href="./wimap.jpg"
+        x="570"
+        y="72"
+        width="300"
+        height="300"
+    />
+
+    <!--キャプション-->
+    <rect x="118" y="408" width="364" height="138" fill="lightgray" />
+    <text
+        x="300"
+        y="450"
+        text-anchor="middle"
+        dominant-baseline="central"
+        font-size="48"
+        font-family="Arial"
+    >トンボ <tspan font-size="24">(2017)</tspan></text>
+    <text
+        x="300"
+        y="510"
+        text-anchor="middle"
+        dominant-baseline="central"
+        font-size="36"
+        font-family="Arial"
+    >靴紐細工</text>
+    <rect x="588" y="408" width="264" height="138" fill="lightgray" />
+    <text
+        x="720"
+        y="450"
+        text-anchor="middle"
+        dominant-baseline="central"
+        font-size="48"
+        font-family="Arial"
+    >WiMap <tspan font-size="24">(2021)</tspan></text>
+    <text
+        x="720"
+        y="510"
+        text-anchor="middle"
+        dominant-baseline="central"
+        font-size="36"
+        font-family="Arial"
+    >旅程記録アプリ</text>
+
     <!--断ち切り線-->
-    <line x1="29" y1="0" x2="29" y2="970" stroke="green" stroke-width="2" />
-    <line x1="581" y1="0" x2="581" y2="970" stroke="green" stroke-width="2" />
-    <line x1="0" y1="29" x2="610" y2="29" stroke="green" stroke-width="2" />
-    <line x1="0" y1="941" x2="610" y2="941" stroke="green" stroke-width="2" />
+    <g fill="rgba(255, 255, 255, 1)">
+        <rect x="0" y="0" width="30" height="610" />
+        <rect x="940" y="0" width="30" height="610" />
+        <rect x="0" y="0" width="970" height="30" />
+        <rect x="0" y="580" width="970" height="30" />
+    </g>
 </svg>

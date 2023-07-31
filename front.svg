@@ -1,110 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="610" height="970" viewBox="0 0 610 970">
-    <!--背景色-->
-    <rect x="0" y="0" width="610" height="970" />
-    <!--コケッシー-->
-    <path d="
-        M 100 0
-        L 510 0
-        L 610 100
-        L 610 510
-        L 540 580
-        L 610 650
-        L 610 970
-        L 0   970
-        L 0   650
-        L 70  580
-        L 0   510
-        L 0   100
-        Z
-    " fill="rgb(205, 153, 106)" />
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="970" height="610" viewBox="0 0 970 610">
+    <!--背景-->
+    <rect x="0" y="0" width="970" height="610" fill="rgb(205, 153, 106)" />
+
+    <!--枠線-->
+    <g stroke="black" fill="none" stroke-width="10">
+        <polyline points="
+            0   160,
+            100 60,
+            750 60,
+            810 120,
+            870 60,
+            970 60
+        " />
+        <polyline points="
+            970 450,
+            870 550,
+            220 550,
+            160 490,
+            100 550,
+            0   550
+        " />
+    </g>
+
     <!--名前-->
     <text
-        x="50%"
-        y="210"
+        x="485"
+        y="263"
         text-anchor="middle"
         dominant-baseline="central"
-        font-size="60"
+        font-size="72"
         font-family="メイリオ"
         font-weight="bold"
     >淵野アタリ</text>
-    <!--ジャンル-->
+
+    <!--URL-->
     <text
-        x="50%"
-        y="370"
+        x="485"
+        y="359"
         text-anchor="middle"
         dominant-baseline="central"
-        font-size="40"
-        font-family="メイリオ"
-    >靴紐作品</text>
-    <text
-        x="50%"
-        y="430"
-        text-anchor="middle"
-        dominant-baseline="central"
-        font-family="Arial"
-        font-size="40"
-    >JavaScript</text>
-    <!--リンク-->
-    <image
-        xlink:href="./twitterIcon.svg"
-        x="75"
-        y="635"
-        width="40"
-        height="40"
-    />
-    <text
-        x="130"
-        y="655"
-        dominant-baseline="central"
-        font-size="40"
-        font-family="Arial"
-    >@hutinoatari</text>
-    <image
-        xlink:href="./githubIcon.png"
-        x="75"
-        y="705"
-        width="40"
-        height="40"
-    />
-    <text
-        x="130"
-        y="725"
-        dominant-baseline="central"
-        font-size="40"
-        font-family="Arial"
-    >hutinoatari</text>
-    <image
-        xlink:href="./house.svg"
-        x="75"
-        y="775"
-        width="40"
-        height="40"
-    />
-    <text
-        x="130"
-        y="795"
-        dominant-baseline="central"
-        font-size="40"
+        font-size="48"
         font-family="Arial"
     >hutinoatari.dev</text>
-    <image
-        xlink:href="./mail.svg"
-        x="75"
-        y="845"
-        width="40"
-        height="40"
-    />
-    <text
-        x="130"
-        y="865"
-        dominant-baseline="central"
-        font-size="40"
-        font-family="Arial"
-    >hutinoatari@gmail.com</text>
 
     <!--断ち切り線-->
-    <line x1="29" y1="0" x2="29" y2="970" stroke="green" stroke-width="2" />
-    <line x1="581" y1="0" x2="581" y2="970" stroke="green" stroke-width="2" />
-    <line x1="0" y1="29" x2="610" y2="29" stroke="green" stroke-width="2" />
-    <line x1="0" y1="941" x2="610" y2="941" stroke="green" stroke-width="2" />
+    <g fill="rgba(255, 255, 255, 0.8)">
+        <rect x="0" y="0" width="30" height="610" />
+        <rect x="940" y="0" width="30" height="610" />
+        <rect x="0" y="0" width="970" height="30" />
+        <rect x="0" y="580" width="970" height="30" />
+    </g>
 </svg>
